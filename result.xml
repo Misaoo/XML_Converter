@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<list>
+    <person>
+        <firstName>Jaime</firstName>
+        <lastName>Lannister</lastName>
+        <phone>
+            <phone>031-343434</phone>
+            <mobilePhone>0712-345345</mobilePhone>
+        </phone>
+        <street>King's Landing</street>
+        <city>Westeros</city>
+        <postalCode>12345</postalCode>
+        <firstName2>Jaime</firstName2>
+        <yearOfBirth>1970</yearOfBirth>
+    </person>
+    <person>
+        <firstName>Tyrion</firstName>
+        <lastName>Lannister</lastName>
+        <phone>
+            <phone>021-454545</phone>
+            <mobilePhone>0723-456789</mobilePhone>
+        </phone>
+        <street>King's Landing</street>
+        <city>Westeros</city>
+        <postalCode>12345</postalCode>
+    </person>
+    <person>
+        <firstName>Sansa</firstName>
+        <lastName>Stark</lastName>
+        <street>Winterfell</street>
+        <city>The North</city>
+        <postalCode>23456</postalCode>
+        <firstName2>Sansa</firstName2>
+        <yearOfBirth>1996</yearOfBirth>
+    </person>
+    <person>
+        <firstName>Arya</firstName>
+        <lastName>Stark</lastName>
+        <phone>
+            <phone>011-565656</phone>
+            <mobilePhone>0734-567890</mobilePhone>
+        </phone>
+        <firstName2>Arya</firstName2>
+        <yearOfBirth>1997</yearOfBirth>
+    </person>
+    <person>
+        <firstName>Khal</firstName>
+        <lastName>Drogo</lastName>
+        <phone>
+            <phone>024-787878</phone>
+            <mobilePhone>0745-678901</mobilePhone>
+        </phone>
+    </person>
+    <person>
+        <firstName>Daenerys</firstName>
+        <lastName>Targaryen</lastName>
+        <street>King's landing</street>
+        <city>Westeros</city>
+        <postalCode>12345</postalCode>
+    </person>
+    <person>
+        <firstName>Ned</firstName>
+        <lastName>Stark</lastName>
+        <firstName2>Ned</firstName2>
+        <yearOfBirth>1959</yearOfBirth>
+    </person>
+    <person>
+        <phone>
+            <phone>023-676767</phone>
+            <mobilePhone>0756-789012</mobilePhone>
+        </phone>
+        <street>Winterfell</street>
+        <city>The North</city>
+        <postalCode>23456</postalCode>
+        <firstName2>Catelyn</firstName2>
+        <yearOfBirth>1964</yearOfBirth>
+    </person>
+    <person>
+        <phone>
+            <phone>045-919191</phone>
+            <mobilePhone>0767-890123</mobilePhone>
+        </phone>
+        <firstName2>Viserys</firstName2>
+        <yearOfBirth>1983</yearOfBirth>
+    </person>
+</list>

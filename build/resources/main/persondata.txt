@@ -1,0 +1,26 @@
+P|Jaime|Lannister
+T|0712-345345|031-343434
+A|King's Landing|Westeros|12345
+F|Jaime|1970
+P|Tyrion|Lannister
+T|0723-456789|021-454545
+A|King's Landing|Westeros|12345
+P|Sansa|Stark
+A|Winterfell|The North|23456
+F|Sansa|1996
+P|Arya|Stark
+T|0734-567890|011-565656
+F|Arya|1997
+P|Khal|Drogo
+T|0745-678901|024-787878
+P|Daenerys|Targaryen
+A|King's landing|Westeros|12345
+P|Ned|Stark
+F|Ned|1959
+F|Catelyn|1964
+T|0756-789012|023-676767
+A|Winterfell|The North|23456
+F|Viserys|1983
+T|0767-890123|045-919191
+F|Jon|1986
+A|Winterfell|The North|23456
