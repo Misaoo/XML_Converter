@@ -6,12 +6,9 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 public class Person {
     private String firstName; //P
     private String lastName; //P
+    private Name name; //F
     private Phone phone; //T
-    private String street; //A
-    private String city; //A
-    private String postalCode; //A
-    private String firstName2; //F
-    private String yearOfBirth; //F
+    private Address address; //A
 
     public String getFirstName() {
         return firstName;
@@ -37,44 +34,19 @@ public class Person {
         this.phone = phone;
     }
 
-    public String getStreet() {
-        return street;
+    public Address getAddress() {
+        return address;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public void setAddress(Address address) {
+        this.address = address;
     }
 
-    public String getCity() {
-        return city;
+    public Name getName() {
+        return name;
     }
 
-    public void setCity(String city) {
-        this.city = city;
+    public void setName(Name name) {
+        this.name = name;
     }
-
-    public String getPostalCode() {
-        return postalCode;
-    }
-
-    public void setPostalCode(String postalCode) {
-        this.postalCode = postalCode;
-    }
-
-    public String getFirstName2() {
-        return firstName2;
-    }
-
-    public void setFirstName2(String firstName2) {
-        this.firstName2 = firstName2;
-    }
-
-    public String getYearOfBirth() {
-        return yearOfBirth;
-    }
-
-    public void setYearOfBirth(String yearOfBirth) {
-        this.yearOfBirth = yearOfBirth;
-    }
-
 }

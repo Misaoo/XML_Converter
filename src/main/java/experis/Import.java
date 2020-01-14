@@ -1,7 +1,9 @@
 package experis;
 
+import model.Address;
 import model.Person;
 import model.Phone;
+import model.Name;
 
 import java.net.URI;
 import java.nio.file.Files;
@@ -56,7 +58,6 @@ public class Import {
                     final String charAtOne = String
                             .valueOf(segment.charAt(1));
 
-
                     if (charAtZero.equals("P") &&
                             charAtOne.equals("|")) {
                         final String[] seg = segment.split("\\|");
@@ -78,29 +79,35 @@ public class Import {
                         phone.setMobilePhone(seg[1]);
                         phone.setPhone(seg[2]);
                         person.setPhone(phone);
+
                     } else if (charAtZero.equals("A") &&
                             charAtOne.equals("|")) {
                         final String[] seg = segment.split("\\|");
-                        if (person.getStreet() != null) {
+                        if (person.getAddress() != null) {
                             this.personList.add(person);
                             person = new Person();
                         }
-                        person.setStreet(seg[1]);
-                        person.setCity(seg[2]);
-                        person.setPostalCode(seg[3]);
+
+                        Address address = new Address();
+                        address.setStreet(seg[1]);
+                        address.setCity(seg[2]);
+                        address.setPostalCode(seg[3]);
+                        person.setAddress(address);
+
                     } else if (charAtZero.equals("F") &&
                             charAtOne.equals("|")) {
                         final String[] seg = segment.split("\\|");
-                        if (person.getFirstName2() != null) {
+                        if (person.getName() != null) {
                             this.personList.add(person);
                             person = new Person();
                         }
-                        person.setFirstName2(seg[1]);
-                        person.setYearOfBirth(seg[2]);
+                        Name name = new Name();
+                        name.setName(seg[1]);
+                        name.setBorn(seg[2]);
+                        person.setName(name);
                     } else {
                         throw new Exception("No operation specified!");
                     }
-
                 }
             }
         } catch (Exception e) {
@@ -108,5 +115,4 @@ public class Import {
         }
         return personList;
     }
-
 }
